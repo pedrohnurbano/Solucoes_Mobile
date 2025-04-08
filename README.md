@@ -1,1 +1,0 @@
-# Solucoes_Mobile
