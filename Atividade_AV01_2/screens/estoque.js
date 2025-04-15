@@ -5,23 +5,24 @@ export default function Estoque() {
     return (
         <View style={styles.container}>
             <ScrollView>
-                <Image source={require('../assets/imagem_1.jpg')} style={styles.imagem}></Image>
+                {/* Socorro, prof.ª, não entendi esse erro. ;-;' */}
+                <Image source={require('assets/imagem-1.jpg')} style={styles.imagem}></Image>
                 <Text style={styles.titulo}> Uma Dobra no Tempo </Text>
                 <Text style={styles.descricao}> Livro de abordagem científica e ficção. Livro de Nº 01 da Saga de "Uma Dobra no Tempo", de Madelaine Lenguee.</Text>
 
-                <Image source={require('../assets/imagem_2.jpg')} style={styles.imagem}></Image>
+                <Image source={require('assets/imagem-2.jpg')} style={styles.imagem}></Image>
                 <Text style={styles.titulo}> Um Vento à Porta </Text>
                 <Text style={styles.descricao}> Livro de abordagem científica e ficção. Livro de Nº 02 da Saga de "Uma Dobra no Tempo", de Madelaine Lenguee.</Text>
 
-                <Image source={require('../assets/imagem_3.jpg')} style={styles.imagem}></Image>
+                <Image source={require('assets/imagem-3.jpg')} style={styles.imagem}></Image>
                 <Text style={styles.titulo}> Um Planeta em Seu Giro Veloz </Text>
                 <Text style={styles.descricao}> Livro de abordagem científica e ficção. Livro de Nº 03 da Saga de "Uma Dobra no Tempo", de Madelaine Lenguee.</Text>
 
-                <Image source={require('../assets/imagem_4.jpg')} style={styles.imagem}></Image>
+                <Image source={require('assets/imagem-4.jpg')} style={styles.imagem}></Image>
                 <Text style={styles.titulo}> Um Tempo Aceitável </Text>
                 <Text style={styles.descricao}> Livro de abordagem científica e ficção. Livro de Nº 04 da Saga de "Uma Dobra no Tempo", de Madelaine Lenguee.</Text>
 
-                <Image source={require('../assets/imagem_5.jpg')} style={styles.imagem}></Image>
+                <Image source={require('assets/imagem-5.jpg')} style={styles.imagem}></Image>
                 <Text style={styles.titulo}> Muitas Águas </Text>
                 <Text style={styles.descricao}> Livro de abordagem científica e ficção. Livro de Nº 05 da Saga de "Uma Dobra no Tempo", de Madelaine Lenguee.</Text>
 

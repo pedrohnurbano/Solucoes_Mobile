@@ -6,18 +6,41 @@ import FaleConosco from './screens/fale_conosco';
 
 // NAVEGAÇÕES:
 import { createStackNavigator } from '@react-navigation/stack';
-const Stack = createStackNavigator();
 import { createDrawerNavigator } from '@react-navigation/drawer';
+const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
 
-// EXPORTAÇÃO DO APLICATIVO:
+// // EXPORTAÇÃO DO APLICATIVO:
+// export default function App() {
+//   return (
+//     <View style={styles.container}>
+//       <FaleConosco/>
+//     </View>
+//   );
+// }
+
+/////////////////////////////////////////////////////////////////////
+
 export default function App() {
   return (
-    <View style={styles.container}>
-      <FaleConosco/>
-    </View>
+    <Stack.Navigator>
+      <Stack.Screen name="Estoque" component={Estoque} />
+    </Stack.Navigator>
   );
 }
+
+/////////////////////////////////////////////////////////////////////
+
+function MyDrawer() {
+  return (
+    <Drawer.Navigator>
+      <Drawer.Screen name="Estoque" component={Estoque} />
+      <Drawer.Screen name="Fale Conosco" component={FaleConosco} />
+    </Drawer.Navigator>
+  );
+}
+
+/////////////////////////////////////////////////////////////////////
 
 // ESTILIZAÇÃO DA TELA:
 const styles = StyleSheet.create({

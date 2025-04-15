@@ -8,7 +8,7 @@ export default function FaleConosco() {
     return (
         <View style={styles.container}>
             <ScrollView>
-                <Image source={require('../assets/imagem_6.png')} style={styles.imagem}></Image>
+                <Image source={require('assets/imagem-6.png')} style={styles.imagem}></Image>
                 <Text> Nome: </Text>
                 <TextInput style={styles.input} onChangeText={onChangeText}value={text}></TextInput>
                 <Text> E-mail: </Text>
@@ -19,7 +19,7 @@ export default function FaleConosco() {
             </ScrollView>
         </View>
     );
-};
+}; 
 
 const styles = StyleSheet.create({
     container: {

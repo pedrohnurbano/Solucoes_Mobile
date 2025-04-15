@@ -10,7 +10,7 @@ export default function Login(navigation) {
             <TextInput style={styles.input} onChangeText={onChangeText}value={text}></TextInput>
             <Text> Senha: </Text>
             <TextInput style={styles.input} onChangeText={onChangeText2}value={text2}></TextInput>
-            <Button style={styles.butt} title="Entrar" color='black' onPress={navigation.navigate("screens/estoque.js")}></Button>
+            <Button style={styles.butt} title="Entrar" color='black' onPress={() => navigation.navigate('Estoque')}></Button>
         </View>
     );
 };
